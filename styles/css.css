@@ -1,0 +1,98 @@
+html {
+    font-family: 'Electrolize', sans-serif;
+}
+
+body {
+    background-image: url("../images/wallpaper.jfif");
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 90%;
+    min-width: 470px;
+}
+
+@media(max-width: 600px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .flexin
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    img{
+        height: 10em;
+        padding: 5%;
+        margin: auto;
+    }
+img#droite {order: 2;}
+p#gauche {order: 1;}
+}
+
+.titre {
+    position: sticky;
+    background-color: rgb(45, 40, 100);
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+}
+div#top {
+    top: 0;
+}
+div#bottom {
+    bottom: 0;
+}
+.titreprimaire {
+    text-align: left;
+    color: black;
+    padding-left: 5%;
+}
+
+.titresecondaire {
+    text-align: left;
+    color: black;
+    padding-left: 5%;
+}
+
+.flex {
+    display: flex;
+    gap: 5%;
+}
+
+.gauche {
+    flex: 33%;
+    background-color: lightblue;
+    border: solid black 1px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.center {
+    flex: 33%;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.droite {
+    flex: 33%;
+    background-color: lightblue;
+    border: solid black 1px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+img {
+    width: 70%;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+p {
+    width: auto;
+    padding: 1.5em;
+    font-size: larger;
+}
